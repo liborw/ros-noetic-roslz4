@@ -6,10 +6,11 @@ url='https://wiki.ros.org/roslz4'
 pkgname='ros-noetic-roslz4'
 pkgver='1.15.4'
 arch=('any')
-pkgrel=1
+pkgrel=2
 license=('BSD')
 
 ros_makedepends=(
+    ros-noetic-cpp-common
 	ros-noetic-catkin
 )
 
